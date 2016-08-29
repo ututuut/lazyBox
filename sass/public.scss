@@ -1,0 +1,17 @@
+﻿@import "_style";
+
+*{//不推荐使用*
+	box-sizing:border-box;
+	font-size:1rem;
+	margin:0rem;
+	padding:0rem;
+	border:0rem;
+}
+
+html{//推荐使用rem单位，这里设置根字体大小
+	font-size:12px;
+	font-family:1;
+}
+
+
+

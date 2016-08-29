@@ -1,0 +1,18 @@
+﻿$_fontSize:1rem !default;//默认文本中的正常字体
+$_fontSizeBig:1.5rem !default;//加大后的字体
+
+
+$colorThem:#0099FF !default;//应用主题色
+$colorThem2:#00FF33 !default;//应用主题色
+$colorBlack:#333333 !default;//黑色
+$colorWhite:#FFFFFF !default;//白色
+$colorGray:#F5F5F5 !default;//灰色
+$colorGray2:#535353 !default;//灰色
+$colorGray3:rgb(240,240,240) !default;//灰色
+
+
+$width:100rem;//网页整体宽度，不使用响应式
+
+@mixin z-index-top{//位于最顶部
+	z-index:99999;
+}
